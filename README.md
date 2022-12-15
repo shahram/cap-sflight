@@ -1,4 +1,5 @@
-# Welcome to the CAP SFLIGHT App [Personal Edition v.1 realease 1.0.4]
+# Welcome to the CAP SFLIGHT App [Personal Edition v.1 Version 1.xx.yy]
+
 
 This is a sample app for the travel reference scenario, built with the [SAP Cloud Application Programming Model (CAP)](https://cap.cloud.sap) and [SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates).
 

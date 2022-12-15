@@ -1,6 +1,7 @@
 ---
 general:
   buildTool: "mta"
+  verbose: true
 
 stages:
   Build:

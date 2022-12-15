@@ -13,20 +13,20 @@ stages:
 
   Acceptance:
     cloudFoundryDeploy: false
-    cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-    cfOrg: "a76e622dtrial"
+    cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+    cfOrg: "jlabscforg"
     cfSpace: "dev"
-    cfAppName: "app"
-    cfCredentialsId: "deploy-to-cf"
+    cfAppName: "cap-sflight"
+    cfCredentialsId: "deploy-to-cf-sflight"
     uiVeri5ExecuteTests: false
 
   Release:
     cloudFoundryDeploy: true
-    cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-    cfOrg: "a76e622dtrial"
+    cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+    cfOrg: "jlabscforg"
     cfSpace: "dev"
-    cfAppName: "app"
-    cfCredentialsId: "deploy-to-cf"
+    cfAppName: "cap-sflight"
+    cfCredentialsId: "deploy-to-cf-sflight"
     tmsUpload: false
 
 steps:
@@ -39,9 +39,9 @@ steps:
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
 
-  tmsUpload:
-    nodeName: "qa"
-    credentialsId: "tms-sk"
+  # tmsUpload:
+  #   nodeName: "qa"
+  #   credentialsId: "tms-sk"
 
 
 # #

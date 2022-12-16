@@ -16,7 +16,7 @@ stages:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "jlabscforg"
-    cfSpace: "devII"
+    cfSpace: "dev"
     cfAppName: "cap-sflight"
     cfCredentialsId: "deploy-to-cf-sflight"
     uiVeri5ExecuteTests: false
@@ -25,7 +25,7 @@ stages:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "jlabscforg"
-    cfSpace: "devII"
+    cfSpace: "dev"
     cfAppName: "cap-sflight"
     cfCredentialsId: "deploy-to-cf-sflight"
     tmsUpload: false
@@ -41,8 +41,8 @@ steps:
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
 
-  # tmsUpload:
-  #   nodeName: "qa"
-  #   credentialsId: "jlabsalertkey-sfligh"
+  tmsUpload:
+    nodeName: "qa"
+    credentialsId: "jlabsalertkey-sfligh"
 
 

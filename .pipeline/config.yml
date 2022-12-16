@@ -29,6 +29,7 @@ stages:
     cfAppName: "cap-sflight"
     cfCredentialsId: "deploy-to-cf-sflight"
     tmsUpload: false
+    verbose: true
 
 steps:
   artifactPrepareVersion:

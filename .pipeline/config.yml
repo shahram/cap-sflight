@@ -16,7 +16,7 @@ stages:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "jlabscforg"
-    cfSpace: "dev"
+    cfSpace: "devII"
     cfAppName: "cap-sflight"
     cfCredentialsId: "deploy-to-cf-sflight"
     uiVeri5ExecuteTests: false
@@ -25,7 +25,7 @@ stages:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "jlabscforg"
-    cfSpace: "dev"
+    cfSpace: "devII"
     cfAppName: "cap-sflight"
     cfCredentialsId: "deploy-to-cf-sflight"
     tmsUpload: false

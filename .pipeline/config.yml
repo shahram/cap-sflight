@@ -40,9 +40,9 @@ steps:
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
 
-  # tmsUpload:
-  #   nodeName: "qa"
-  #   credentialsId: "tms-sk"
+  tmsUpload:
+    nodeName: "qa"
+    credentialsId: "jlabsalertkey-sfligh"
 
 
 # #
